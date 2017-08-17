@@ -1,5 +1,5 @@
-d674294f6f4ead5ea3c8cf8320798b46 *ChangeLog
-aa1eb2e1a4eec2819f266e4e5e748633 *DESCRIPTION
+ee2eb8ea9eb53315bc674dbc41018634 *ChangeLog
+f264f05a7414b23b4599d5ed4a161be6 *DESCRIPTION
 0ac5e0fc498026408e36e4f4ce2fd5b0 *NAMESPACE
 e7f558018de6dafcac2e0a2bb3bf85b7 *data/UNlocations.R
 5fc6600ad48ad2420fee255e3bf3d82a *data/UNlocations.txt
@@ -35,9 +35,9 @@ a1666de07940067bcd8afe3b77fa3f1d *data/e0Mproj80l.R
 828bc284687843f4950bd1d032f056e7 *data/migration.R
 b68d4f22db5be883308574a30b9b0b5e *data/migration.txt
 c80476b97bfa8f81644a4847b4a7bd9f *data/mxF.R
-d950ca82bdaaabdf00f457e24cc75270 *data/mxF.txt
+e2500d878f77bfe58d50acd744adef58 *data/mxF.txt
 249b7b467e77ee471e3263c55e0d78d8 *data/mxM.R
-668d00a44534d38070c0102d9dea93f2 *data/mxM.txt
+a4e7fb2959d74ac3662607f0721bcd2d *data/mxM.txt
 14229bd9b2639217c3cd7ad33fd83372 *data/percentASFR.R
 3f5501dce9c6ab7a4d4676d4b4d0d3c5 *data/percentASFR.txt
 7898b497a3384c6dd7a190e1ff4500df *data/pop.R
@@ -90,7 +90,7 @@ e1fe62ced67fe6d19ad4fcff042dd4b2 *data/tfrprojLow.R
 e5c84fe55e72dcc9b87b5f9739341e4e *data/tfrprojLow.txt
 9481e770fe597de646cb7aa4b9d157e5 *data/tfrprojMed.R
 c1cc9b64f1595a5423adcb26c85dc9af *data/tfrprojMed.txt
-a5b52434b112bd043c8d7b6e25024243 *man/ASMR.Rd
+c337501f0b775fa5b0b1f581647b0a34 *man/ASMR.Rd
 96734c612fedccf234439380d9a69d73 *man/PercentASFR.Rd
 b0a16f9ca5cead162b7aaa2c808199ce *man/PopByAge.Rd
 dd7bbb630feef334c0ffa5e972b1aaec *man/SexRatioAtBirth.Rd
@@ -98,4 +98,4 @@ dd7bbb630feef334c0ffa5e972b1aaec *man/SexRatioAtBirth.Rd
 a1cc50d96396ba396d57a003fbf72354 *man/e0.Rd
 de8172280985f26b5d662a35c3a9193d *man/migration.Rd
 6f250752c38edf79eb217fa669485960 *man/tfr.Rd
-9ed064bb87aed80783404f3ffef68429 *man/wpp2017-package.Rd
+76eca5309d7033892b8856cbae2ccc50 *man/wpp2017-package.Rd
