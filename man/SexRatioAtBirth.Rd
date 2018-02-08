@@ -19,7 +19,7 @@ Estimates and projections of the sex ratio at birth derived as the number of fem
  }
  
  \references{
- World Population Prospects: The 2017 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
+ World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
 }
 
 \examples{

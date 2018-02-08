@@ -12,8 +12,8 @@ Data from the United Nations World Population Prospects 2017, released on June 2
 \details{
 \tabular{ll}{
 Package: \tab wpp2017\cr
-Version: \tab 1.1-1\cr
-Date: \tab 2017-9-19\cr
+Version: \tab 1.1-2\cr
+Date: \tab 2018-2-18\cr
 URL: \tab \url{http://esa.un.org/wpp}\cr
 }
 
@@ -38,11 +38,8 @@ The package contains the following datasets:
  }
  
  \references{
- World Population Prospects: The 2017 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
+ World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
 }
 
- \author{
-Hana Sevcikova
-}
 
 \keyword{ package }

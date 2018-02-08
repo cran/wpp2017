@@ -61,7 +61,7 @@ The historical dataset (e0F_supplemental.txt and e0M_supplemental.txt for female
  }
  
  \references{
- World Population Prospects: The 2017 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
+ World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}
 }
 
 \examples{

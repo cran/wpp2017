@@ -24,7 +24,7 @@ data(migration)
  }
  
  \references{
- World Population Prospects: The 2017 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
+ World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
 }
 
 \examples{

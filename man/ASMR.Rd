@@ -33,7 +33,7 @@ Data for ages 85-100+ are not the official UN data. While the published UN morta
  }
  
  \references{
- World Population Prospects: The 2017 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
+ World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}
 }
 
 
