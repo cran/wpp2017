@@ -1,3 +1,10 @@
+1.2-0 (03/16/2018)
+-----
+Added datasets on sex-specific total population 
+(popMT, popFT, popMTproj, popFTproj; derived on the fly).
+
+NAs are now ignored when creating total population from age-specific datasets.
+
 1.1-2 (02/08/2018)
 -----
 Author changed to UNPD. 

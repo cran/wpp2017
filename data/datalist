@@ -19,10 +19,14 @@ mxM
 percentASFR
 pop
 popF
+popFT
+popFTproj
 popFprojHigh
 popFprojLow
 popFprojMed
 popM
+popMT
+popMTproj
 popMprojHigh
 popMprojLow
 popMprojMed
