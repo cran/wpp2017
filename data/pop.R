@@ -2,7 +2,6 @@
 # This dataset is created on the fly as a sum of the sex-specific population estimates popMT and popFT
 
 pop <- local({
-	library(plyr)
 	source('popMT.R')
 	source('popFT.R')
 	# The male and female dataset should be in the same format, 

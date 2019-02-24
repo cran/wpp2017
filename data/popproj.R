@@ -2,7 +2,6 @@
 # This dataset is created on the fly as a sum of the sex-specific population median projections popMTproj and popFTproj
 
 popproj <- local({
-	library(plyr)
 	source('popMTproj.R')
 	source('popFTproj.R')
 	# The male and female dataset should be in the same format, 

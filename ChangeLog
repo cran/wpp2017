@@ -1,3 +1,7 @@
+1.2-1 (02/22/2019)
+-----
+Dependency on plyr removed. "On the fly" datasets are created via data.table.
+
 1.2-0 (03/16/2018)
 -----
 Added datasets on sex-specific total population 

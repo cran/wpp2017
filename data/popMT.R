@@ -2,16 +2,15 @@
 # This dataset is created on the fly as a sum of the age-specific population estimates popM
 
 popMT <- local({
-	library(plyr)
 	source('popM.R')
-
+    #suppressPackageStartupMessages(library(data.table))
 	sum.by.country <- function(dataset) {
-		year.cols.idx <- grep('^[0-9]{4}', colnames(dataset))
-		ddply(dataset[,c(which(colnames(dataset)=='country_code'), year.cols.idx)], "country_code", 
-		      .fun=colwise(sum, na.rm = TRUE))
+		year.cols <- grep('^[0-9]{4}', colnames(dataset), value = TRUE)
+		name.col <- grep('^name$|^country$', colnames(dataset), value=TRUE)
+		data.table::setnames(dataset, name.col, "name") # rename if necessary
+		dataset[, c("country_code", "name", year.cols), 
+		        with = FALSE][,lapply(.SD, sum, na.rm = TRUE), 
+		                      by = c("country_code", "name")]
 	}
-	tpopM <- sum.by.country(popM)
-	name.col <- grep('^name$|^country$', colnames(popM), value=TRUE)
-	cbind(country_code=tpopM$country_code, name=popM[,name.col][match(tpopM$country_code, popM$country_code)],
-	      tpopM[,-1])
+	as.data.frame(sum.by.country(data.table::as.data.table(popM)))
 })
