@@ -13,7 +13,7 @@ United Nations table of locations, including regions, for statistical purposes a
 \format{
   A data frame with one observations per country or region. It contains the following variables:
   \describe{
-    \item{\code{name}}{Name of country or region (following ISO 3166 official short names in English - see \cr \url{https://www.iso.org/obp/ui/#search/code/} and United Nations Multilingual Terminology Database - see \url{http://unterm.un.org}).}
+    \item{\code{name}}{Name of country or region (following ISO 3166 official short names in English - see \cr \url{https://www.iso.org/obp/ui/#search/code/} and United Nations Multilingual Terminology Database - see \url{https://unterm.un.org/unterm}).}
     \item{\code{country_code}}{Numerical Location Code (3-digit codes following ISO 3166-1 numeric standard) - see \url{http://en.wikipedia.org/wiki/ISO_3166-1_numeric}.}
     \item{\code{reg_code}}{Code of the regions.}
     \item{\code{reg_name}}{Name of the regions.}

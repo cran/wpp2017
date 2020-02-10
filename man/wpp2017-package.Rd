@@ -12,9 +12,9 @@ Data from the United Nations World Population Prospects 2017, released on June 2
 \details{
 \tabular{ll}{
 Package: \tab wpp2017\cr
-Version: \tab 1.2-1\cr
-Date: \tab 2019-2-22\cr
-URL: \tab \url{http://esa.un.org/wpp}\cr
+Version: \tab 1.2-3\cr
+Date: \tab 2020-2-7\cr
+URL: \tab \url{http://population.un.org/wpp}\cr
 }
 
 The package contains the following datasets:
@@ -31,7 +31,7 @@ The package contains the following datasets:
 \item \link{UNlocations}: location dataset
 }
 }
-\note{The package \pkg{wppExplorer} offers a shiny user interface to explore these datasets as well as functions for convenient extraction of information from the data, see function \code{wpp.indicator} in \pkg{wppExplorer}, or \url{https://rstudio.stat.washington.edu/shiny/wppExplorer/inst/explore/}.
+\note{The package \pkg{wppExplorer} offers a shiny user interface to explore these datasets as well as functions for convenient extraction of information from the data, see function \code{wpp.indicator} in \pkg{wppExplorer}, or \url{https://bayespop.shinyapps.io/wpp2017explorer/}.
 }
 
 \source{
@@ -39,7 +39,7 @@ The package contains the following datasets:
  }
  
  \references{
- World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
+ World Population Prospects: The 2017 Revision. \url{http://population.un.org/wpp}.
 }
 
 

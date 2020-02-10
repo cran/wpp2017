@@ -84,7 +84,7 @@ All values are in thousands.
  }
  
  \references{
- World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
+ World Population Prospects: The 2017 Revision. \url{http://population.un.org/wpp}.
 }
 
 \examples{

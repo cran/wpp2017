@@ -19,7 +19,7 @@ Datasets giving the percentage of fertility rates over ages 15-50.
  }
  
  \references{
- World Population Prospects: The 2017 Revision. \url{http://esa.un.org/unpd/wpp}.
+ World Population Prospects: The 2017 Revision. \url{http://population.un.org/wpp}.
 }
 
 
